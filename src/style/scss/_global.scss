@@ -1,0 +1,134 @@
+.bb__body {
+    background-color: $b-c;
+    height: fit-content;
+    &::after {
+        transition: .5s ease-in-out;
+        content: '';
+        position: absolute;
+        height: 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: $nav;
+    }
+}
+
+.t-n {
+    background-color: $nav;
+}
+
+.srch-bar {
+    background-color: $srch;
+    color: $txt;
+}
+
+// backbook
+.bb-cont {
+    margin-top: 100px;
+    &_list {
+        list-style-type: none;
+        padding-inline-start: 0;
+        li {
+            min-width: 300px;
+            padding: 1em;
+            border-radius: 15px;
+            span {
+                margin-left: 20px;
+            }
+        }
+    }
+    .bb-thi {
+        position: fixed;
+    }
+    .bb-cen {
+        margin: 0 auto;
+        width: 36em;
+        .ad-cont {
+            background-color: $nav;
+            margin-bottom: 1em;
+        }
+    }
+    .bb-fri {
+        position: fixed;
+        right: 0;
+        height: 80vh;
+        width: 300px;
+        .fri-cont {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            &-boxes {
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                .er-mess {
+                    height: fit-content;
+                }
+            }
+            &-title {
+                padding-bottom: 1em;
+            }
+        }
+    }
+}
+
+.b-txt {
+    font-weight: 700;
+}
+
+.t-line {
+    border-top: solid 1px rgba(114, 115, 119, 0.5);
+}
+
+.b-line {
+    border-bottom: solid 1px rgba(114, 115, 119, 0.5);
+}
+
+.bb_button {
+    white-space: pre;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    background-color: rgba(176, 180, 185, .2);
+    border-radius: .5em;
+    padding: .5em 1em;
+}
+
+.tripple-dote {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    &::after {
+        border-radius: 100%;
+        width: 130%;
+        height: 130%;
+    }
+    .dote:not(:first-child) {
+        margin-left: 2.5px;
+    }
+    .dote {
+        display: block;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        background-color: $txt;
+    }
+}
+
+.modal-active {
+    .modal-box {
+        background-color: $b-c;
+    }
+}
+
+.prefix {
+    color: $txt;
+}
+
+.hide-scroll {
+    overflow: hidden;
+}

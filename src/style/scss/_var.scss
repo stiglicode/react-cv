@@ -1,0 +1,18 @@
+// Colors
+:root {
+    --bckg-color: rgb(24, 25, 26);
+    --nav-bckg-color: rgb(35, 37, 38);
+    --txt-color2: rgb(176, 180, 185);
+    --srch-bar-color: rgb(58, 59, 60);
+    --txt-color: rgb(114, 115, 119);
+    --main-blue: rgb(45, 136, 255);
+    --main-red: rgb(231, 46, 76);
+}
+
+$b-c: var(--bckg-color);
+$nav: var(--nav-bckg-color);
+$txt2: var(--txt-color2);
+$srch: var(--srch-bar-color);
+$txt: var(--txt-color);
+$blue: var(--main-blue);
+$red: var(--main-red);

@@ -1,0 +1,28 @@
+.ic {
+    &-med,
+    &-small {
+        display: inline-block;
+        img {
+            height: inherit;
+            width: inherit;
+            display: block;
+            user-select: none;
+        }
+    }
+    &-med {
+        width: 35px;
+        height: 35px;
+    }
+    &-small {
+        width: 28px;
+        height: 28px;
+    }
+    &-xsmall {
+        width: 20px;
+        height: 20px;
+    }
+    &-usr {
+        width: 35px;
+        height: 35px;
+    }
+}

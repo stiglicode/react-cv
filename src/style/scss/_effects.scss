@@ -1,0 +1,67 @@
+.p-hover {
+    position: relative;
+    z-index: 2;
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(176, 180, 185, .1);
+        opacity: 0;
+        transition: opacity .2s ease-in-out;
+    }
+    &:hover {
+        &::after {
+            opacity: 1;
+        }
+    }
+}
+
+.b-hover {
+    transition: .2s ease-in-out;
+    &:hover {
+        background-color: rgba(176, 180, 185, .3);
+    }
+}
+
+.b-hover-1 {
+    transition: .2s ease-in-out;
+    &:hover {
+        background-color: rgba(176, 180, 185, .1);
+    }
+}
+
+.u-hover {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.modal-response {
+    animation: slide-bounce-res 3s ease-in 1;
+}
+
+@keyframes slide-bounce-res {
+    0% {
+        top: -5em;
+    }
+    50% {
+        top: -1em;
+    }
+    60% {
+        top: -1em;
+    }
+    70% {
+        top: -1em;
+    }
+    80% {
+        top: -1em;
+    }
+    90% {
+        top: -1em;
+    }
+    100% {
+        top: -5em;
+    }
+}

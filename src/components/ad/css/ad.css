@@ -1,0 +1,201 @@
+.ad-cont {
+  background-color: red;
+  width: 100%;
+  border-radius: 12px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.ad-cont-header {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.ad-cont-header_head {
+  margin-bottom: 1em;
+}
+
+.ad-cont-header_head-ls span {
+  margin-left: 1em;
+}
+
+.ad-cont-body {
+  background-color: #0f0f0f;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.ad-cont-body_details {
+  background-color: rgba(176, 180, 185, 0.25);
+  cursor: default;
+}
+
+.ad-cont-body_details-web {
+  text-transform: uppercase;
+  margin-bottom: .5em;
+}
+
+.ad-cont-body_details-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.ad-cont-body_details-title span {
+  padding-right: 1em;
+}
+
+.ad-cont-body .show-me:hover::after {
+  opacity: 1;
+}
+
+.ad-cont-body .show-me:hover::before {
+  opacity: 1;
+}
+
+.ad-cont-body .show-me::after {
+  content: '';
+  position: absolute;
+  top: 33%;
+  left: 4%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: solid 2px red;
+  z-index: 999;
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.ad-cont-body .show-me::before {
+  content: 'Me';
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: -3%;
+  width: 40px;
+  height: 40px;
+  z-index: 999;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 0 2em;
+  background-color: var(--main-blue);
+  -webkit-clip-path: polygon(0 85%, 0 0, 100% 0, 100% 85%, 65% 85%, 50% 100%, 35% 85%);
+          clip-path: polygon(0 85%, 0 0, 100% 0, 100% 85%, 65% 85%, 50% 100%, 35% 85%);
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.ad-cont-body_picture {
+  min-height: 235px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.ad-cont-body_picture img {
+  width: 100%;
+}
+
+.ad-cont-footer {
+  height: 4.6875em;
+  margin-top: .5em;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.ad-cont-footer_interact {
+  padding-top: 1em;
+}
+
+.ad-cont-footer_interact-btns {
+  width: 33.33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ad-cont-footer_interact-btns::after {
+  padding: .3em 0;
+  border-radius: 5px;
+}
+
+.ad-cont-footer_interact-btns i {
+  margin-right: 10px;
+}
+
+.ad-cont-footer_state {
+  padding-bottom: 1em;
+}
+
+.ad-cont-footer_state-likes span {
+  margin-left: .5em;
+}
+
+.like {
+  background-image: url("../../../assets/fb-icons.png");
+  background-size: 25px 1276px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-position: 0 -288px;
+}
+
+.comment {
+  background-image: url("../../../assets/fb-icons.png");
+  background-size: 25px 1276px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-position: 0 -212px;
+}
+
+.share {
+  background-image: url("../../../assets/fb-icons.png");
+  background-size: 25px 1276px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-position: 0 -345px;
+  -webkit-filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(50%) contrast(96%);
+          filter: invert(62%) sepia(98%) saturate(12%) hue-rotate(175deg) brightness(50%) contrast(96%);
+}
+
+.s16x16 {
+  width: 16px;
+  height: 16px;
+}
+
+.user-profile {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #727377;
+  overflow: hidden;
+}

@@ -1,0 +1,13 @@
+.er-mess {
+    border-radius: 8px;
+    border: solid 1px var(--main-red);
+    text-align: center;
+    display: block;
+    background-color: rgba(136, 49, 63, .24);
+    width: 60%;
+    padding: 1em;
+    font-size: .8em;
+    color: var(--main-red);
+    user-select: none;
+    cursor: default;
+}

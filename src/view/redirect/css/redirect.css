@@ -1,0 +1,53 @@
+.redirect-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: 0 auto;
+}
+
+.redirect-box button {
+  padding: 3rem;
+  border: solid 5px var(--main-blue);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 30px;
+  color: var(--main-blue);
+  font-weight: bold;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+.redirect-box button::after {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 0;
+  background-color: var(--main-blue);
+  left: 0;
+  bottom: 0;
+}
+
+.redirect-box button:hover {
+  color: #ffffff;
+}
+
+.redirect-box button:hover::after {
+  height: 100%;
+}
+
+.redirect-box button:active {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7359f86b.chunk.css",
+    "main.js": "/static/js/main.63a462a7.chunk.js",
+    "main.js.map": "/static/js/main.63a462a7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0edf0e52.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0edf0e52.js.map",
+    "static/js/2.98b0b89a.chunk.js": "/static/js/2.98b0b89a.chunk.js",
+    "static/js/2.98b0b89a.chunk.js.map": "/static/js/2.98b0b89a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.74cd9b96069c997774c65b4a0489fd83.js": "/precache-manifest.74cd9b96069c997774c65b4a0489fd83.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7359f86b.chunk.css.map": "/static/css/main.7359f86b.chunk.css.map",
+    "static/js/2.98b0b89a.chunk.js.LICENSE.txt": "/static/js/2.98b0b89a.chunk.js.LICENSE.txt",
+    "static/media/alt-pict.svg": "/static/media/alt-pict.118c5a78.svg",
+    "static/media/ad.css": "/static/media/fb-icons.134def8b.png",
+    "static/media/like-circle.svg": "/static/media/like-circle.030d77c4.svg",
+    "static/media/logo.svg": "/static/media/logo.7baa454d.svg",
+    "static/media/mail.svg": "/static/media/mail.b3300eac.svg",
+    "static/media/phone.svg": "/static/media/phone.5fff233f.svg",
+    "static/media/register.svg": "/static/media/register.c7d25c21.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0edf0e52.js",
+    "static/js/2.98b0b89a.chunk.js",
+    "static/css/main.7359f86b.chunk.css",
+    "static/js/main.63a462a7.chunk.js"
+  ]
+}

@@ -1,0 +1,30 @@
+.burger-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 44px;
+    .burger-child {
+        transform-origin: 1px center;
+        border-radius: 1000px;
+        display: block;
+        width: 30px;
+        height: 5px;
+        background-color: #fff;
+        transition: .3s;
+    }
+    .burger-child:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+.b-c__a {
+    .burger-child:nth-child(1) {
+        transform: rotate(45deg);
+    }
+    .burger-child:nth-child(2) {
+        opacity: 0;
+    }
+    .burger-child:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+}

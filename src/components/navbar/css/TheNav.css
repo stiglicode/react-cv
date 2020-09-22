@@ -1,0 +1,142 @@
+.t-n {
+  position: fixed;
+  z-index: 800;
+  padding-bottom: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 71px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.t-n::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 71px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.t-n-ls_logo-cont .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.t-n-ls_srch-cont {
+  position: relative;
+}
+
+.t-n-ls_srch-cont i {
+  position: absolute;
+  margin-left: 1em;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.t-n-ls_srch-cont i svg {
+  fill: #727377;
+}
+
+.t-n-ls_srch-cont .srch-bar {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border-radius: 1000px;
+  padding: 8px 20px 8px 50px;
+}
+
+.t-n-cs {
+  width: 40%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.t-n-cs_redirect {
+  padding: .7em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-radius: 10px;
+}
+
+.t-n-cs_redirect svg {
+  fill: #727377;
+}
+
+.t-n-cs .is-active {
+  position: relative;
+}
+
+.t-n-cs .is-active:hover {
+  background: none;
+}
+
+.t-n-cs .is-active::before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #2d88ff;
+}
+
+.t-n-cs .is-active svg {
+  fill: #2d88ff;
+}
+
+.t-n-rs i:not(:last-child) {
+  margin-right: 1.2em;
+}
+
+.burger-container {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none !important;
+}
+
+.burger-container span {
+  background-color: #b0b4b9 !important;
+}
+
+.roll-down::after {
+  height: 100%;
+}
+
+.roll-down .bb-cen {
+  display: none;
+}
+
+.roll-down .t-n {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
